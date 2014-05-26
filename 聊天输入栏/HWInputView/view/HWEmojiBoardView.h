@@ -1,0 +1,16 @@
+//
+//  HWEmojiBoardView.h
+//  iPhone
+//
+//  Created by 马洪伟 on 14-5-21.
+//  Copyright (c) 2014年 Fn. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#define kEmojiBoardViewHeight 216
+/*!
+    表情面板
+ */
+@interface HWEmojiBoardView : UIView
+
+@end

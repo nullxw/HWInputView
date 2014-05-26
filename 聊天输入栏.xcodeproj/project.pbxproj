@@ -13,12 +13,35 @@
 		661EA2A919333979003C237B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 661EA2A719333979003C237B /* InfoPlist.strings */; };
 		661EA2AB19333979003C237B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 661EA2AA19333979003C237B /* main.m */; };
 		661EA2AF19333979003C237B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 661EA2AE19333979003C237B /* AppDelegate.m */; };
-		661EA2B119333979003C237B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661EA2B019333979003C237B /* Images.xcassets */; };
 		661EA2B819333979003C237B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661EA2B719333979003C237B /* XCTest.framework */; };
 		661EA2B919333979003C237B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661EA29E19333979003C237B /* Foundation.framework */; };
 		661EA2BA19333979003C237B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661EA2A219333979003C237B /* UIKit.framework */; };
 		661EA2C219333979003C237B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 661EA2C019333979003C237B /* InfoPlist.strings */; };
 		661EA2C419333979003C237B /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 661EA2C319333979003C237B /* _____Tests.m */; };
+		661EA2EF193339E5003C237B /* HWInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 661EA2CF193339E5003C237B /* HWInputView.m */; };
+		661EA2F0193339E5003C237B /* inputToolBarAdd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661EA2D1193339E5003C237B /* inputToolBarAdd@2x.png */; };
+		661EA2F1193339E5003C237B /* inputToolBarAdd_HL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661EA2D2193339E5003C237B /* inputToolBarAdd_HL@2x.png */; };
+		661EA2F2193339E5003C237B /* inputToolBarEmoji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661EA2D3193339E5003C237B /* inputToolBarEmoji@2x.png */; };
+		661EA2F3193339E5003C237B /* inputToolBarEmoji_HL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661EA2D4193339E5003C237B /* inputToolBarEmoji_HL@2x.png */; };
+		661EA2F4193339E5003C237B /* inputToolBarText@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661EA2D5193339E5003C237B /* inputToolBarText@2x.png */; };
+		661EA2F5193339E5003C237B /* inputToolBarText_HL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661EA2D6193339E5003C237B /* inputToolBarText_HL@2x.png */; };
+		661EA2F6193339E5003C237B /* inputToolBarVoice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661EA2D7193339E5003C237B /* inputToolBarVoice@2x.png */; };
+		661EA2F7193339E5003C237B /* inputToolBarVoice_HL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661EA2D8193339E5003C237B /* inputToolBarVoice_HL@2x.png */; };
+		661EA2F8193339E5003C237B /* HWAddBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 661EA2DB193339E5003C237B /* HWAddBoardView.m */; };
+		661EA2F9193339E5003C237B /* HWEmojiBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 661EA2DD193339E5003C237B /* HWEmojiBoardView.m */; };
+		661EA2FA193339E5003C237B /* HWInputToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 661EA2DF193339E5003C237B /* HWInputToolBar.m */; };
+		661EA2FB193339E5003C237B /* HWTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 661EA2E1193339E5003C237B /* HWTextView.m */; };
+		661EA2FC193339E5003C237B /* HWInputViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661EA2E3193339E5003C237B /* HWInputViewViewController.m */; };
+		661EA2FD193339E5003C237B /* HWInputViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661EA2E4193339E5003C237B /* HWInputViewViewController.xib */; };
+		661EA2FE193339E5003C237B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661EA2E6193339E5003C237B /* Default-568h@2x.png */; };
+		661EA2FF193339E5003C237B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 661EA2E7193339E5003C237B /* Default.png */; };
+		661EA300193339E5003C237B /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 661EA2E8193339E5003C237B /* Default~iphone.png */; };
+		661EA301193339E5003C237B /* icon_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 661EA2E9193339E5003C237B /* icon_114x114.png */; };
+		661EA302193339E5003C237B /* icon_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 661EA2EA193339E5003C237B /* icon_120x120.png */; };
+		661EA303193339E5003C237B /* icon_29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 661EA2EB193339E5003C237B /* icon_29x29.png */; };
+		661EA304193339E5003C237B /* icon_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 661EA2EC193339E5003C237B /* icon_57x57.png */; };
+		661EA305193339E5003C237B /* icon_58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 661EA2ED193339E5003C237B /* icon_58x58.png */; };
+		661EA306193339E5003C237B /* icon_80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 661EA2EE193339E5003C237B /* icon_80x80.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,12 +65,41 @@
 		661EA2AC19333979003C237B /* 聊天输入栏-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "聊天输入栏-Prefix.pch"; sourceTree = "<group>"; };
 		661EA2AD19333979003C237B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		661EA2AE19333979003C237B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		661EA2B019333979003C237B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		661EA2B619333979003C237B /* 聊天输入栏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "聊天输入栏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		661EA2B719333979003C237B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		661EA2BF19333979003C237B /* 聊天输入栏Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "聊天输入栏Tests-Info.plist"; sourceTree = "<group>"; };
 		661EA2C119333979003C237B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		661EA2C319333979003C237B /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		661EA2CE193339E5003C237B /* HWInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWInputView.h; sourceTree = "<group>"; };
+		661EA2CF193339E5003C237B /* HWInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWInputView.m; sourceTree = "<group>"; };
+		661EA2D1193339E5003C237B /* inputToolBarAdd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inputToolBarAdd@2x.png"; sourceTree = "<group>"; };
+		661EA2D2193339E5003C237B /* inputToolBarAdd_HL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inputToolBarAdd_HL@2x.png"; sourceTree = "<group>"; };
+		661EA2D3193339E5003C237B /* inputToolBarEmoji@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inputToolBarEmoji@2x.png"; sourceTree = "<group>"; };
+		661EA2D4193339E5003C237B /* inputToolBarEmoji_HL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inputToolBarEmoji_HL@2x.png"; sourceTree = "<group>"; };
+		661EA2D5193339E5003C237B /* inputToolBarText@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inputToolBarText@2x.png"; sourceTree = "<group>"; };
+		661EA2D6193339E5003C237B /* inputToolBarText_HL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inputToolBarText_HL@2x.png"; sourceTree = "<group>"; };
+		661EA2D7193339E5003C237B /* inputToolBarVoice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inputToolBarVoice@2x.png"; sourceTree = "<group>"; };
+		661EA2D8193339E5003C237B /* inputToolBarVoice_HL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inputToolBarVoice_HL@2x.png"; sourceTree = "<group>"; };
+		661EA2DA193339E5003C237B /* HWAddBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWAddBoardView.h; sourceTree = "<group>"; };
+		661EA2DB193339E5003C237B /* HWAddBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWAddBoardView.m; sourceTree = "<group>"; };
+		661EA2DC193339E5003C237B /* HWEmojiBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWEmojiBoardView.h; sourceTree = "<group>"; };
+		661EA2DD193339E5003C237B /* HWEmojiBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWEmojiBoardView.m; sourceTree = "<group>"; };
+		661EA2DE193339E5003C237B /* HWInputToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWInputToolBar.h; sourceTree = "<group>"; };
+		661EA2DF193339E5003C237B /* HWInputToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWInputToolBar.m; sourceTree = "<group>"; };
+		661EA2E0193339E5003C237B /* HWTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTextView.h; sourceTree = "<group>"; };
+		661EA2E1193339E5003C237B /* HWTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTextView.m; sourceTree = "<group>"; };
+		661EA2E2193339E5003C237B /* HWInputViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWInputViewViewController.h; sourceTree = "<group>"; };
+		661EA2E3193339E5003C237B /* HWInputViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWInputViewViewController.m; sourceTree = "<group>"; };
+		661EA2E4193339E5003C237B /* HWInputViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HWInputViewViewController.xib; sourceTree = "<group>"; };
+		661EA2E6193339E5003C237B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		661EA2E7193339E5003C237B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		661EA2E8193339E5003C237B /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
+		661EA2E9193339E5003C237B /* icon_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_114x114.png; sourceTree = "<group>"; };
+		661EA2EA193339E5003C237B /* icon_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_120x120.png; sourceTree = "<group>"; };
+		661EA2EB193339E5003C237B /* icon_29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_29x29.png; sourceTree = "<group>"; };
+		661EA2EC193339E5003C237B /* icon_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57x57.png; sourceTree = "<group>"; };
+		661EA2ED193339E5003C237B /* icon_58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_58x58.png; sourceTree = "<group>"; };
+		661EA2EE193339E5003C237B /* icon_80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_80x80.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +159,11 @@
 		661EA2A419333979003C237B /* 聊天输入栏 */ = {
 			isa = PBXGroup;
 			children = (
-				661EA2AD19333979003C237B /* AppDelegate.h */,
-				661EA2AE19333979003C237B /* AppDelegate.m */,
-				661EA2B019333979003C237B /* Images.xcassets */,
+				661EA2CD193339E5003C237B /* HWInputView */,
+				661EA2E2193339E5003C237B /* HWInputViewViewController.h */,
+				661EA2E3193339E5003C237B /* HWInputViewViewController.m */,
+				661EA2E4193339E5003C237B /* HWInputViewViewController.xib */,
+				661EA2E5193339E5003C237B /* Icons&Launch */,
 				661EA2A519333979003C237B /* Supporting Files */,
 			);
 			path = "聊天输入栏";
@@ -118,6 +172,8 @@
 		661EA2A519333979003C237B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				661EA2AD19333979003C237B /* AppDelegate.h */,
+				661EA2AE19333979003C237B /* AppDelegate.m */,
 				661EA2A619333979003C237B /* 聊天输入栏-Info.plist */,
 				661EA2A719333979003C237B /* InfoPlist.strings */,
 				661EA2AA19333979003C237B /* main.m */,
@@ -142,6 +198,63 @@
 				661EA2C019333979003C237B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		661EA2CD193339E5003C237B /* HWInputView */ = {
+			isa = PBXGroup;
+			children = (
+				661EA2CE193339E5003C237B /* HWInputView.h */,
+				661EA2CF193339E5003C237B /* HWInputView.m */,
+				661EA2D0193339E5003C237B /* image */,
+				661EA2D9193339E5003C237B /* view */,
+			);
+			path = HWInputView;
+			sourceTree = "<group>";
+		};
+		661EA2D0193339E5003C237B /* image */ = {
+			isa = PBXGroup;
+			children = (
+				661EA2D1193339E5003C237B /* inputToolBarAdd@2x.png */,
+				661EA2D2193339E5003C237B /* inputToolBarAdd_HL@2x.png */,
+				661EA2D3193339E5003C237B /* inputToolBarEmoji@2x.png */,
+				661EA2D4193339E5003C237B /* inputToolBarEmoji_HL@2x.png */,
+				661EA2D5193339E5003C237B /* inputToolBarText@2x.png */,
+				661EA2D6193339E5003C237B /* inputToolBarText_HL@2x.png */,
+				661EA2D7193339E5003C237B /* inputToolBarVoice@2x.png */,
+				661EA2D8193339E5003C237B /* inputToolBarVoice_HL@2x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		661EA2D9193339E5003C237B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				661EA2DA193339E5003C237B /* HWAddBoardView.h */,
+				661EA2DB193339E5003C237B /* HWAddBoardView.m */,
+				661EA2DC193339E5003C237B /* HWEmojiBoardView.h */,
+				661EA2DD193339E5003C237B /* HWEmojiBoardView.m */,
+				661EA2DE193339E5003C237B /* HWInputToolBar.h */,
+				661EA2DF193339E5003C237B /* HWInputToolBar.m */,
+				661EA2E0193339E5003C237B /* HWTextView.h */,
+				661EA2E1193339E5003C237B /* HWTextView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		661EA2E5193339E5003C237B /* Icons&Launch */ = {
+			isa = PBXGroup;
+			children = (
+				661EA2E6193339E5003C237B /* Default-568h@2x.png */,
+				661EA2E7193339E5003C237B /* Default.png */,
+				661EA2E8193339E5003C237B /* Default~iphone.png */,
+				661EA2E9193339E5003C237B /* icon_114x114.png */,
+				661EA2EA193339E5003C237B /* icon_120x120.png */,
+				661EA2EB193339E5003C237B /* icon_29x29.png */,
+				661EA2EC193339E5003C237B /* icon_57x57.png */,
+				661EA2ED193339E5003C237B /* icon_58x58.png */,
+				661EA2EE193339E5003C237B /* icon_80x80.png */,
+			);
+			path = "Icons&Launch";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +332,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				661EA2F4193339E5003C237B /* inputToolBarText@2x.png in Resources */,
+				661EA2FE193339E5003C237B /* Default-568h@2x.png in Resources */,
+				661EA2FD193339E5003C237B /* HWInputViewViewController.xib in Resources */,
+				661EA2F2193339E5003C237B /* inputToolBarEmoji@2x.png in Resources */,
+				661EA300193339E5003C237B /* Default~iphone.png in Resources */,
+				661EA306193339E5003C237B /* icon_80x80.png in Resources */,
+				661EA301193339E5003C237B /* icon_114x114.png in Resources */,
 				661EA2A919333979003C237B /* InfoPlist.strings in Resources */,
-				661EA2B119333979003C237B /* Images.xcassets in Resources */,
+				661EA303193339E5003C237B /* icon_29x29.png in Resources */,
+				661EA2F1193339E5003C237B /* inputToolBarAdd_HL@2x.png in Resources */,
+				661EA2F5193339E5003C237B /* inputToolBarText_HL@2x.png in Resources */,
+				661EA2FF193339E5003C237B /* Default.png in Resources */,
+				661EA2F7193339E5003C237B /* inputToolBarVoice_HL@2x.png in Resources */,
+				661EA304193339E5003C237B /* icon_57x57.png in Resources */,
+				661EA305193339E5003C237B /* icon_58x58.png in Resources */,
+				661EA302193339E5003C237B /* icon_120x120.png in Resources */,
+				661EA2F0193339E5003C237B /* inputToolBarAdd@2x.png in Resources */,
+				661EA2F6193339E5003C237B /* inputToolBarVoice@2x.png in Resources */,
+				661EA2F3193339E5003C237B /* inputToolBarEmoji_HL@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +369,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				661EA2FB193339E5003C237B /* HWTextView.m in Sources */,
 				661EA2AF19333979003C237B /* AppDelegate.m in Sources */,
+				661EA2FA193339E5003C237B /* HWInputToolBar.m in Sources */,
 				661EA2AB19333979003C237B /* main.m in Sources */,
+				661EA2F9193339E5003C237B /* HWEmojiBoardView.m in Sources */,
+				661EA2F8193339E5003C237B /* HWAddBoardView.m in Sources */,
+				661EA2EF193339E5003C237B /* HWInputView.m in Sources */,
+				661EA2FC193339E5003C237B /* HWInputViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,11 +493,10 @@
 		661EA2C819333979003C237B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "聊天输入栏/聊天输入栏-Prefix.pch";
 				INFOPLIST_FILE = "聊天输入栏/聊天输入栏-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -370,11 +505,10 @@
 		661EA2C919333979003C237B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "聊天输入栏/聊天输入栏-Prefix.pch";
 				INFOPLIST_FILE = "聊天输入栏/聊天输入栏-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
